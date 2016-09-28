@@ -10,13 +10,6 @@ Le protocole utilisé est le suivant :
   
 Les trames sont composées comme suit : 3 octets codant la commande (caractères en UTF-8), un nombre d’octets fournissant les opérandes la commande.
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-
 Nom de la trame      |     Code commande sur 3 octets    |   Argument
 ------------- |-------------| ---------
 HELLO      |        HLO        |      Aucun
