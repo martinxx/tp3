@@ -17,18 +17,11 @@ Content in the first column | Content in the second column
 
 
 
-| Header 1      |     2 header    |   header 3 |
-| ------------- |: -------------: | ---------: |
-| 1 Online      |        1        |      value |
-| Line 2        |        2        |      value |
-| 3 Online      |        3        |      value |
-
-
-| Nom de la trame      |     Code commande sur 3 octets    |   Argument |
-| ------------- |: -------------: | ---------: |
-| HELLO      |        HLO        |      Aucun |
-| QUITTER        |        QUT        |      Aucun |
-| ADDITION      |        ADD        |      Aucun |
-| SOUSTRACTION      |        MIN        |      Aucun |
-| MULTIPLICATION      |        TIM        |      16 octets correspondant à deux doubles |
-| DIVISION | DIV | 16 octets correspondant à deux doubles |
+Nom de la trame      |     Code commande sur 3 octets    |   Argument
+------------- |-------------| ---------
+HELLO      |        HLO        |      Aucun
+QUITTER        |        QUT        |      Aucun
+ADDITION      |        ADD        |      Aucun
+SOUSTRACTION      |        MIN        |      Aucun
+MULTIPLICATION      |        TIM        |      16 octets correspondant à deux doubles
+DIVISION | DIV | 16 octets correspondant à deux doubles
