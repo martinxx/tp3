@@ -10,6 +10,14 @@ Le protocole utilisé est le suivant :
   
 Les trames sont composées comme suit : 3 octets codant la commande (caractères en UTF-8), un nombre d’octets fournissant les opérandes la commande.
 
+
+| Header 1      |     2 header    |   header 3 |
+| ------------- |: -------------: | ---------: |
+| 1 Online      |        1        |      value |
+| Line 2        |        2        |      value |
+| 3 Online      |        3        |      value |
+
+
 | Nom de la trame      |     Code commande sur 3 octets    |   Argument |
 | ------------- |: -------------: | ---------: |
 | HELLO      |        HLO        |      Aucun |
