@@ -9,3 +9,12 @@ Le protocole utilisé est le suivant :
   - Quand le client veut mettre fin à la connexion, il envoie au serveur la trame QUITTER.
   
 Les trames sont composées comme suit : 3 octets codant la commande (caractères en UTF-8), un nombre d’octets fournissant les opérandes la commande.
+
+| Nom de la trame      |     Code commande sur 3 octets    |   Argument |
+| ------------- |: -------------: | ---------: |
+| HELLO      |        HLO        |      Aucun |
+| QUITTER        |        QUT        |      Aucun |
+| ADDITION      |        ADD        |      Aucun |
+| SOUSTRACTION      |        MIN        |      Aucun |
+| MULTIPLICATION      |        TIM        |      16 octets correspondant à deux doubles |
+| DIVISION | DIV | 16 octets correspondant à deux doubles |
